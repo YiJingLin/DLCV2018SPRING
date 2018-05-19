@@ -251,6 +251,7 @@ def Problem3_2():
 	plt.xlabel('iteration')
 	plt.legend()
 	fig.savefig(output_path+'fig3_2.jpg', bbox_inches='tight')
+	print('Problem3-2 is finish.')
 
 
 def Problem3_3(acgan):
@@ -287,6 +288,8 @@ def Problem3_3(acgan):
 	fig.set_figheight(fig.get_figheight()*2)
 	fig.set_figwidth(fig.get_figwidth()*2)
 	fig.savefig(output_path+'fig3_3.jpg', bbox_inches='tight', pad_inches = 0)
+	print('Problem3-3 is finish.')
+
 
 ##########################################################################################
 
